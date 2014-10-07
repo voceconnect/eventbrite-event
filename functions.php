@@ -70,10 +70,10 @@ if ( ! function_exists( 'eventbrite_event_enqueue_scripts' ) ) {
 		wp_enqueue_script( 'eventbrite-event-main', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '20130915', true );
 
 		// Bootstrap scripts
-		wp_enqueue_script( 'eventbrite-event-carousel', get_template_directory_uri() . '/js/bootstrap/bootstrap-carousel.js', array( 'jquery' ), '20130915', true );
-		wp_enqueue_script( 'eventbrite-event-collapse', get_template_directory_uri() . '/js/bootstrap/bootstrap-collapse.js', array( 'jquery' ), '20130915', true );
-		wp_enqueue_script( 'eventbrite-event-tooltip', get_template_directory_uri() . '/js/bootstrap/bootstrap-tooltip.js', array( 'jquery' ), '20130915', true );
-		wp_enqueue_script( 'eventbrite-event-popover', get_template_directory_uri() . '/js/bootstrap/bootstrap-popover.js', array( 'jquery' ), '20130915', true );
+		wp_enqueue_script( 'eventbrite-event-carousel', get_template_directory_uri() . '/js/bootstrap/bootstrap-carousel.js', array(), '20130915', true );
+		wp_enqueue_script( 'eventbrite-event-collapse', get_template_directory_uri() . '/js/bootstrap/bootstrap-collapse.js', array(), '20130915', true );
+		wp_enqueue_script( 'eventbrite-event-tooltip', get_template_directory_uri() . '/js/bootstrap/bootstrap-tooltip.js', array(), '20130915', true );
+		wp_enqueue_script( 'eventbrite-event-popover', get_template_directory_uri() . '/js/bootstrap/bootstrap-popover.js', array(), '20130915', true );
 
 		// Modernizr
 		wp_enqueue_script( 'eventbrite-event-modernizr', get_template_directory_uri() . '/js/libs/modernizr.min.js',     array(), '20140304', false );
@@ -418,7 +418,13 @@ function eventbrite_event_get_calendar_of_events( $month, $year ) {
  * @return string
  */
 function eventbrite_event_get_eb_event_url( $event, $refer = 'wporglink' ) {
-	$url = $event->url;
+	$url = '';
+	if ( empty( $event->url ) ) {
+		return $url;
+	} else {
+		$url = $event->url;
+	}
+
 	if ( $refer )
 		$url = add_query_arg( 'ref', $refer, $url );
 
