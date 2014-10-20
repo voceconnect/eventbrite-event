@@ -4,7 +4,7 @@ Contributors: voceplatforms, smccafferty
 Tags: eventbrite, eventbrite event, event
 Requires at least: 3.7
 Tested up to: 3.9.2
-Stable tag: 1.0
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,3 +36,7 @@ See Frequently Asked Questions here: https://github.com/voceconnect/eventbrite-e
 == Changelog ==
 
 Please refer to full changelog at https://github.com/voceconnect/eventbrite-event/releases.
+
+== License ==
+
+Refer to license.txt
