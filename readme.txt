@@ -4,7 +4,7 @@ Contributors: voceplatforms, smccafferty
 Tags: eventbrite, eventbrite event, event
 Requires at least: 3.7
 Tested up to: 3.9.2
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 We teamed up with [Eventbrite](http://eventbrite.com/l/wordpress?ref=wporgfooter)! Use this theme to showcase your one-time Eventbrite event and connect with your audience pre- and post-event with news updates, comments, and social sharing.
 
 To take full advantage of the theme be sure to grab the `Eventbrite Services` plugin!
+
+Eventbrite Event was produced in cooperation with Eventbrite and Automattic, Inc. The Eventbrite name is used by permission.
 
 Please refer to full documentation at https://github.com/voceconnect/eventbrite-event/wiki.
 
@@ -40,3 +42,7 @@ Please refer to full changelog at https://github.com/voceconnect/eventbrite-even
 == License ==
 
 Refer to license.txt
+
+The Eventbrite Venue and Eventbrite Event themes were developed by Voce Communications in collaboration with Eventbrite, Inc. and Automattic, Inc. The "Eventbrite" name is used with the permission of Eventbrite, Inc. For any concerns, please contact Eventbrite's API team (email: api@eventbrite.com).
+
+Images in the screenshots were created by Voce Communications and are free to use/reuse/modify.
