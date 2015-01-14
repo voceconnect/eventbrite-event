@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eventbrite-event\n"
+"POT-Creation-Date: 2015-01-14 11:36-0500\n"
+"PO-Revision-Date: 2015-01-14 11:36-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../eventbrite-event/archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:35
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:38
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:41
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:44
+msgid "Asides"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:47
+msgid "Images"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:50
+msgid "Videos"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:53
+msgid "Quotes"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:56
+msgid "Links"
+msgstr ""
+
+#: ../../eventbrite-event/archive.php:59
+msgid "Archives"
+msgstr ""
+
+#: ../../eventbrite-event/comments.php:46
+msgid "View Comments"
+msgstr ""
+
+#: ../../eventbrite-event/comments.php:49
+msgid "&larr; Older"
+msgstr ""
+
+#: ../../eventbrite-event/comments.php:52
+msgid "Newer &rarr;"
+msgstr ""
+
+#: ../../eventbrite-event/comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: ../../eventbrite-event/footer.php:18
+msgid "Proudly powered by WordPress"
+msgstr ""
+
+#: ../../eventbrite-event/footer.php:19
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:40
+msgid "The Eventbrite Services plugin is required to connect with Eventbrite."
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:49
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:112
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:114
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:138
+msgid "responded"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:139
+msgid "said"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:141
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:147
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:369
+#: ../../eventbrite-event/functions.php:395
+msgid "Buy"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:504
+#: ../../eventbrite-event/tmpl/page-loop.php:11
+#: ../../eventbrite-event/tmpl/post-loop.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:528
+#, php-format
+msgid ""
+"<span class=\"posted-date\">Posted on <a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\">%3$s</a></span>"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:540
+#, php-format
+msgid ""
+" <span class=\"updated-date\">Updated on <a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\">%3$s</a></span>"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:688
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:689
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:840
+msgid "Attend Event"
+msgstr ""
+
+#: ../../eventbrite-event/functions.php:843
+msgid "Event Info"
+msgstr ""
+
+#: ../../eventbrite-event/image.php:25
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" "
+"rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: ../../eventbrite-event/image.php:54
+msgid "Pages:"
+msgstr ""
+
+#: ../../eventbrite-event/image.php:60
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../../eventbrite-event/image.php:61
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../../eventbrite-event/index.php:15
+msgid "Latest Event Updates"
+msgstr ""
+
+#: ../../eventbrite-event/search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../../eventbrite-event/search.php:29
+msgid "No results found"
+msgstr ""
+
+#: ../../eventbrite-event/sidebar.php:26
+msgid "Location"
+msgstr ""
+
+#: ../../eventbrite-event/single.php:29
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../../eventbrite-event/template-attend-event.php:26
+msgid "Attend:"
+msgstr ""
+
+#: ../../eventbrite-event/template-single-event.php:35
+msgid "More Information &rarr;"
+msgstr ""
+
+#: ../../eventbrite-event/inc/custom-header.php:30
+#: ../../eventbrite-event/inc/custom-header.php:40
+msgid "Logo"
+msgstr ""
+
+#: ../../eventbrite-event/inc/custom-header.php:32
+msgid "Upload a logo to replace the default site name in the header"
+msgstr ""
+
+#: ../../eventbrite-event/inc/plugin-enhancements.php:155
+#, php-format
+msgid " Please activate %1$s. %2$s"
+msgstr ""
+
+#: ../../eventbrite-event/inc/plugin-enhancements.php:157
+msgid "Activate"
+msgstr ""
+
+#: ../../eventbrite-event/inc/plugin-enhancements.php:165
+#, php-format
+msgid " Please install %1$s. %2$s"
+msgstr ""
+
+#: ../../eventbrite-event/inc/plugin-enhancements.php:167
+msgid "Install"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:14
+msgid "Eventbrite"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:16
+msgid "Recommended Page Settings for This Theme"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:19
+msgid "Event Info Page"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:20
+msgid "This page will be used to show your Featured Event above."
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:24
+msgid "Attend Event Page"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:25
+msgid ""
+"This page will display the Eventbrite Ticket Widget for the Featured Event "
+"above. Note: we do not recommend adding this page if your event is Invite-"
+"only."
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:29
+msgid "Additional Suggested Pages"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:40
+#, php-format
+msgid ""
+"To set up the best site with this theme, we recommend adding at least the "
+"following pages to your theme - an Event Info page showing your Featured "
+"Eventbrite event and an Attend Event page with the Eventbrite ticket widget. "
+"You can use an existing page or <a href=\"%s\">create a new one</a>."
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:55
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:61
+#, php-format
+msgid ""
+"You don't have any published pages. To use this feature <a href='%s'>create "
+"a new page</a> then come back here and update this."
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:73
+msgid "Create new page"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:81
+msgid "The following pages are also nice to have for this theme:"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:83
+msgid ""
+"Contact Us - hours, address, phone number, email and other contact details"
+msgstr ""
+
+#: ../../eventbrite-event/inc/theme-options.php:84
+msgid "About - additional information about your venue or events"
+msgstr ""
+
+#: ../../eventbrite-event/inc/widgets.php:20
+msgid "Display a Register/Ticket button for your Featured Eventbrite Event"
+msgstr ""
+
+#: ../../eventbrite-event/inc/widgets.php:21
+msgid "Eventbrite: Register/Ticket Button"
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/navigation.php:9
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/navigation.php:10
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/post-empty.php:8
+msgid "Not Found"
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/post-empty.php:9
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/post-loop.php:18
+#, php-format
+msgid "All %s posts"
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/post-meta.php:10
+#: ../../eventbrite-event/tmpl/post-meta.php:13
+msgid ", "
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/post-meta.php:16
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/post-meta.php:18
+#, php-format
+msgid "This entry was posted in %1$s."
+msgstr ""
+
+#: ../../eventbrite-event/tmpl/post-meta.php:22
+msgid "Edit"
+msgstr ""
