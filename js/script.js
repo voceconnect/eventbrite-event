@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 
 	// Disable click on empty hrefs
-	$( 'a[href=#]' ).not( $( '#wpadminbar a' ) ).click(function(){
+	$( 'a[href="#"]' ).not( $( '#wpadminbar a' ) ).click(function(){
 		return false;
 	});
 
